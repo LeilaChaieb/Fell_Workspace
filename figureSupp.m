@@ -1,3 +1,5 @@
+function figureSupp
+
 %% stimulus-responsive
 
 condition={'cCT1','cBB1','cMB1','sCT1','sBB1','sMB1'};
@@ -61,3 +63,4 @@ source=[3,4];
 group='associative scene';
 
 resultScene=instantaneousFiringAssociation(datasets,condition,code,source,group);
+end
